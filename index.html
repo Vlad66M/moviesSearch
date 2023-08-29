@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЗ</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <form action="#" id="search-form" method="post">
+        <h3>SEARCH:</h3>
+        <div class="container">
+            <label for="name" class="form-label">
+                Title:
+                <input type="text" name="name" class="form-input" id="search-name" required>
+            </label>
+    
+            <label for="select" class="form-label">
+                Type:
+                <select name="select" class="form-select" id="select-type">
+                    <option value="Movie" class="form-select-option" >Movie</option>
+                    <option value="TV" class="form-select-option">TV-series</option>
+                </select>
+            </label>
+    
+            <button type="submit" id="search-submit">SEARCH</button>
+        </form>
+        </div>
+
+        <div id="cards-container">
+            <!-- <div class="card">
+                <div class="col1">
+                    <img class="card-img" src="https://avatars.mds.yandex.net/i?id=410557de4e75d41af00bb51be828290b_l-4620768-images-thumbs&n=27&h=480&w=480" alt="картинка">
+                </div>
+                <div class="col2">
+                    <p class="card-type">movie</p>
+                    <h3 class="card-title">Hi!</h3>
+                    <p class="card-year">2000</p>
+                    <button class="card-details-btn">Details</button>
+                </div>
+            </div> -->
+        </div>
+        
+        <div id="paginator">
+            <!-- <div class="paginator-btn"><<</div>
+            <div class="paginator-btn"><p>1</p></div>
+            <div class="paginator-btn"><p>2</p></div>
+            <div class="paginator-btn"><p>3</p></div>
+            <div class="paginator-btn">>></div> -->
+        </div>
+
+        <div id="movie-info">
+            <h3>Movie info:</h3>
+        </div>
+        
+        <div id="card-details">
+            <!-- <div class="card-details-col1">
+                <img class="card-details-img" src="https://avatars.mds.yandex.net/i?id=410557de4e75d41af00bb51be828290b_l-4620768-images-thumbs&n=27&h=480&w=480" alt="картинка">
+            </div>
+            <div class="card-details-col2">
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Title:</p>
+                    <p class="card-detail-record-info">Hi!</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Released:</p>
+                    <p class="card-detail-record-info">01 Apr 2016</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Genre:</p>
+                    <p class="card-detail-record-info">Comedy, Drama, Romance</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Country:</p>
+                    <p class="card-detail-record-info">USA</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Director:</p>
+                    <p class="card-detail-record-info">Aaaaaa</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Writer:</p>
+                    <p class="card-detail-record-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quam?</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Actors:</p>
+                    <p class="card-detail-record-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quam?</p>
+                </div>
+                <div class="card-detail-record">
+                    <p class="card-detail-record-name">Awards:</p>
+                    <p class="card-detail-record-info">2 wins</p>
+                </div>
+            </div> -->
+        </div>
+
+        <div id="not-found">
+            <div class="not-found-msg">
+                <p class="not-found-msg">Movie not found!</p>
+            </div>
+        </div>
+        
+    <script src="scripts/index.js"></script>
+</body>
+</html>
